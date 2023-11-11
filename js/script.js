@@ -1,3 +1,11 @@
+const age = prompt("How old are you?");
+
+if  (age>=18) {
+    alert("Please enter");
+} else{
+    alert("Please enter after a few years")
+} 
+
 let navbar = document.querySelector('.navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{

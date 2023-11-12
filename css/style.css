@@ -142,7 +142,6 @@ section {
 }
 
 .header .search-form.active {
-
     transform: scaleY(1);
 }
 
@@ -174,8 +173,6 @@ section {
     width: 35rem;
     background: #fff;
     padding: 0 1rem;
-    display: none;
-    /* togirla keyin */
 
 }
 
@@ -619,8 +616,6 @@ section {
         background: #fff;
         width: 30rem;
         height: calc(100 vh - 9.5rem);
-        /* togirla keyin */
-        display: none;
     }
 
     .header .navbar a {

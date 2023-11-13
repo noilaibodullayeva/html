@@ -103,9 +103,7 @@ section {
     color: #fff;
 }
 
-.header .navbar.active {
-    right: 0;
-}
+
 
 .header .navbar a:hover {
     color: var(--main-color);
@@ -618,6 +616,10 @@ section {
         height: calc(100 vh - 9.5rem);
     }
 
+    .header .navbar.active {
+        right: 0;
+    }
+    
     .header .navbar a {
         display: block;
         margin: 1.5rem;

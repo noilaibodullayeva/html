@@ -614,12 +614,24 @@ section {
         background: #fff;
         width: 30rem;
         height: calc(100 vh - 9.5rem);
+        display: none;
     }
 
     .header .navbar.active {
         right: 0;
+        display: inline-block;
     }
     
+    .header .cart-items-container {
+        display: none;
+    
+    }
+    
+    .header .cart-items-container.active {
+        right: 0;
+        display: block;
+    }
+
     .header .navbar a {
         display: block;
         margin: 1.5rem;
